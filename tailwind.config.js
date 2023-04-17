@@ -6,5 +6,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+  fontFamily: {
+        'Anton': ['Anton', 'sans-serif']
+      },
+
   plugins: [],
 }

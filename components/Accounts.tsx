@@ -1,0 +1,57 @@
+
+
+const Accounts = () => {
+  return (
+    <div className=" min-h-screen flex flex-col">
+      <div className="container  max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+        <div className="bg-gray-300 px-6 py-8 rounded shadow-md text-black w-full">
+          <h1 className="mb-8 text-3xl text-center font-bold">Create account</h1>
+
+          <input
+            type="text"
+            className="block border border-gray-300 w-full p-3 rounded mb-4"
+            name="name"
+            placeholder="Enter your full name" />
+
+          <input
+            type="email"
+            className="block border border-gray-300 max-h-20	 w-full p-3                 rounded mb-4"
+            name="email"
+            placeholder="Enter your email" />
+          
+          <textarea
+            type="text"
+            className="block border border-gray-300 max-h-20 resize-none	 w-full p-3                 rounded mb-4"
+            name="discription"
+            placeholder="Enter your description" />
+
+          <input
+            type="password"
+            className="block border border-gray-300 max-h-20	 w-full p-3                 rounded mb-4"
+            name="password"
+            placeholder="Enter your password" />
+
+
+          <button
+            type="submit"
+            className="w-full text-center py-3 rounded    focus:outline-none my-1 text-white bg-black color-black"
+          > Create   </button>
+
+          <div className="text-center text-sm text-gray-600 mt-4">
+            Already have an account? 
+            <span className="no-underline   text-gray-   font-bold   " >
+              Login
+            </span>
+
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+  )
+}
+
+export default Accounts;
