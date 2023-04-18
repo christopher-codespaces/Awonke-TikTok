@@ -6,13 +6,14 @@ import  Accounts from "../components/Accounts"
 import  SignUp from "../components/SignUp"
 import  Add from "../components/Add"
 import  Other from "../components/Other"
+import PlayVideo from "../components/PlayVideo"
 
 
 
 const Home: NextPage = () => {
   return (
     <>
-       <Accounts/>
+      <PlayVideo/>
 {/*       <SideBar/>
       <Other/>
       <Add/> */}
